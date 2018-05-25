@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/check_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorMain"
+        android:fitsSystemWindows="true">
+        <Button
+            android:id="@+id/back_updata"
+            android:background="@drawable/icon_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检查更新      "
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/check_result"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:text=""
+        android:textSize="20sp"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_below="@id/check_title"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/download_new"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="下载更新"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/check_result"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorMain"/>
+
+</RelativeLayout>

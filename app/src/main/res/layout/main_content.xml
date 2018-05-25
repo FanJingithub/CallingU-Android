@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorMain"
+        android:fitsSystemWindows="true">
+        <Button
+            android:id="@+id/a_menu"
+            android:background="@drawable/ic_home_white_48dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:text="一键呼救"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/a_help"
+            android:background="@drawable/ic_help_outline_white_48dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/apply_declaration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="紧急情况下，可以按下相应呼救按钮。 附近的医务人员将收到求助信息！"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="20sp"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="20dp"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/apply_syncope"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/icon_1"/>
+        <Button
+            android:id="@+id/apply_trauma"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/icon_2"
+            android:layout_marginTop="220dp"
+            android:alpha="0.6"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/switch_c"
+        android:clickable="false"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/doctor_marker" />
+
+</RelativeLayout>

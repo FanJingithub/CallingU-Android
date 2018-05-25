@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/upgrade_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorMain"
+        android:fitsSystemWindows="true">
+        <Button
+            android:id="@+id/back_upgrade"
+            android:background="@drawable/icon_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传证书      "
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description_upgrade"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/upgrade_title"
+        android:layout_margin="20dp"
+        android:text="@string/upgrade_description"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/description_upgrade"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="150dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp">
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/take_photo"
+            android:background="@color/colorMain"
+            android:text="拍 照"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:id="@+id/choose_from_album"
+            android:background="@color/colorMain"
+            android:text="选择照片"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/upload_photo"
+            android:background="@color/colorMain"
+            android:text="上传此照片"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</RelativeLayout>

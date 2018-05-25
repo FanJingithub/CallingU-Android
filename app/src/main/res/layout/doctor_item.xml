@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/info_doctor"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="40dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/card_shape"/>
+    <ImageButton
+        android:id="@+id/phone_doctor"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_phone_green_100"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>

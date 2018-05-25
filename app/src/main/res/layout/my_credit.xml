@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorMain"
+        android:fitsSystemWindows="true">
+        <Button
+            android:id="@+id/back_credit"
+            android:background="@drawable/icon_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的荣誉      "
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="我的积分"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/score_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="10 分"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="成功次数"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/success_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="0 次"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="救助行动"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/action_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="0 次"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="参与救助"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/join_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="0 次"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="我的资格证"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/certification_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="无"
+                android:textSize="16sp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

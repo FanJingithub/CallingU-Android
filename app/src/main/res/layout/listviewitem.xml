@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--联系人列表获取-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_tv"
+        android:text="AAA"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:gravity="center_vertical" />
+    <CheckBox
+        android:id="@+id/item_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

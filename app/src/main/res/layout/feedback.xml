@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--事件查询-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorMain"
+        android:fitsSystemWindows="true">
+        <Button
+            android:id="@+id/back_feedback"
+            android:background="@drawable/icon_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_title"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/feedback_inf"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="86dp"
+        android:hint="请输入反馈信息"
+        android:maxLength="657"
+        android:textSize="16sp"
+        android:minLines="8"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="left|top"
+        />
+    <TextView
+        android:id="@+id/feedback_txt_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedback_inf"
+        android:paddingLeft="20dp"
+        android:text="已键入0个字符" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="360dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/commit_feedback"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="2dp"
+            android:layout_weight="5"
+            android:background="@color/colorMain"
+            android:text="提交"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

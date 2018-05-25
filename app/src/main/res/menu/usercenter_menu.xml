@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/user_center_preference"
+            android:icon="@drawable/ic_settings_black_36dp"
+            android:title="偏好设置"/>
+        <item
+            android:id="@+id/user_center_permission"
+            android:icon="@drawable/ic_credit"
+            android:title="手机权限"/>
+        <item
+            android:id="@+id/user_center_band"
+            android:icon="@drawable/ic_bluetooth_white_36dp"
+            android:title="我的手环"/>
+        <item
+            android:id="@+id/user_center_heart"
+            android:icon="@drawable/ic_favorite_white_36dp"
+            android:title="心电监测"/>
+        <item
+            android:id="@+id/user_center_upgrade"
+            android:icon="@drawable/ic_description_white_36dp"
+            android:title="升级认证"/>
+        <item
+            android:id="@+id/user_center_help"
+            android:icon="@drawable/ic_help"
+            android:title="帮助说明"/>
+        <item
+            android:id="@+id/user_center_about"
+            android:icon="@drawable/ic_about"
+            android:title="关于"/>
+        <item
+            android:id="@+id/user_center_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="退出登录"/>
+    </group>
+</menu>

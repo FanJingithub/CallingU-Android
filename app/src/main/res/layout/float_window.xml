@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simple_window_layout"
+    android:layout_width="60dip"
+    android:layout_height="25dip"
+    android:background="@drawable/hospital_marker"
+    >
+</android.support.constraint.ConstraintLayout>

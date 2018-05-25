@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">一键呼救</string>
+
+    <string name="permission_message">请开启所需的权限，无法使用这个APP！需开启的权限：定位、读写手机存储、获取手机信息。</string>
+    <string name="permission_BLE_message">请将蓝牙权限设定为“允许”，否则无法使用这个功能！</string>
+    <string name="app_user_auto_start">请前往自动启管理界面，将本应用设置为自启动</string>
+    <string name="network_exception">无法连接到服务器，请检查网络状态</string>
+    <string name="unknown_exception">未知错误</string>
+    <string name="band_text">目前该功能仅支持本团队的手环！</string>
+    <string name="call_120">自动拨打120\n开启后，当确认呼救时，将自动拨打120</string>
+    <string name="send_msg">自动发送短信\n开启后，当确认呼救时，将自动发送短信告知亲友</string>
+    <string name="float_bt">开启桌面悬浮窗\n单击快速进入求救界面</string>
+    <string name="permission_tv">请开启本软件使用所需的手机权限，否则软件无法正常使用。基础使用需开启的手机权限为：定位、拨打电话、发送短信、读写手机存储、获取手机信息。</string>
+    <string name="permission_btn1">设置手机权限</string>
+    <string name="permission_btn2">设置自启动管理</string>
+
+    <string name="version_info">一键呼救 2.0</string>
+    <string name="company_info">By LFChicken (2018)</string>
+
+    <string name="login_1">请输入您的手机号。该手机号作为救助时的联系电话，请务必保证有效。</string>
+    <string name="login_2">注册成功成为用户后，即默认同意 使用条例。</string>
+
+    <string name="band_0">自启动设置\n请允许本软件自启动，否则不能正常使用本功能</string>
+    <string name="band_1">连接手环\n连接成功后，能实时监测您的心率，发生异常情况时能自动发出求救信号</string>
+
+    <string name="wrong_connect_message">无法连接到服务器，请检查网络状态</string>
+
+    <string name="upgrade_description">请将您的资格证书上传，后台将对您的证书进行审核，审核通过者可以升级为医疗救助成员。</string>
+
+    <string name="instruction_text">
+        &#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;
+        本应用致力于打造一个急救平台。在紧急状况发生时，通过一键呼救平台将求助信息散布给周围医护人员及医疗志愿者。
+        在救护车赶来之前或在送往医院的路上，求救者可得到附近医护人员及医疗志愿者的帮助，为后续救援争取黄金时间。\n\n
+        &#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;
+        在使用本应用之前，请确保已经开启以下权限：定位、读写手机存储、获取手机信息。\n\n
+        &#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;
+        主界面共有两个呼救按钮，分别为：严重外伤、突发晕厥，目前“严重外伤”按钮暂不开放使用。\n\n
+        &#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;
+        谁也不能保证自己不会出现意外。如若你遭遇相应意外时，在拨打120的同时，可以按下相应按钮，发送求救信息。
+        周围五公里内的医护人员及志愿者将会获取你的位置和手机号，若有医护人员或志愿者参与救助，他们的位置的将显示在地图里，其手机号也将在地图下的信息面板中显示，按下对应的电话按钮，可以拨打相应的号码。
+        此外，地图上将显示附近5公里的AED位置、附近医院位置。从而可以帮助充分利用附近的急救资源。
+        若连接了本团队的心率手环，你的心率将得到实时监测，当监测到心跳骤停等情况，本应用将自动发送求救信息。\n\n
+        &#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;
+        设想一下，假如你遭遇了一场车祸，大腿血流如注，你拨打了120后，尚可以通过点击一键呼救“严重外伤”按钮来通知周围的医生和志愿者来帮助你。
+        时间就是生命，在120未到达之前或在送往医院的路上，若能得到附近医务人员或医疗志愿者的救助支持，就能在生死线上多获取一丝希望。又如，商场逛街时有人突然晕倒（如心脏病），而你又不具备急救知识，你可以在拨打120的同时，按下一键呼救“突发晕厥”，便能得到附近医护人员及志愿者的帮助。\n</string>
+    <string name="try_welcome_text">试用账号</string>
+    <string name="login_welcome_text">手机号验证码登录</string>
+    <string name="weChat_welcome_text">微信登录</string>
+    <string name="about_title">关于软件</string>
+    <string name="sos_title">求救信息列表</string>
+    <string name="no_event_sos">- 暂无事件 -</string>
+    <string name="login_title">登录</string>
+    <string name="feedback_title">反馈</string>
+    <string name="help_title">帮助说明</string>
+    <string name="logout_title">退出登录</string>
+</resources>
